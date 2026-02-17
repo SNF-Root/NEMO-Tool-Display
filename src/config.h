@@ -30,6 +30,10 @@
 #define MQTT_TOPIC_PREFIX "nemo/esp32"
 #endif
 
+#ifndef TARGET_TOOL_ID
+#define TARGET_TOOL_ID 1
+#endif
+
 #ifndef TARGET_TOOL_NAME
 #define TARGET_TOOL_NAME "woollam"
 #endif
