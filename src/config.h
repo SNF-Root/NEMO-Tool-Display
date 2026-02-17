@@ -57,6 +57,9 @@
 #ifndef MQTT_RECONNECT_INTERVAL
 #define MQTT_RECONNECT_INTERVAL 5000
 #endif
+#ifndef MQTT_MAX_RETRIES
+#define MQTT_MAX_RETRIES 10
+#endif
 
 #ifndef STATUS_ACTIVE
 #define STATUS_ACTIVE "active"
