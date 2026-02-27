@@ -10,71 +10,39 @@
  * WiFi
  * ----------------------------------------------------------------------------- */
 
-#ifndef WIFI_SSID
-#define WIFI_SSID "Zucotti Manicotti"
-#endif
-#ifndef WIFI_PASSWORD
-#define WIFI_PASSWORD "100BoiledEggs"
-#endif
-#ifndef WIFI_CONNECT_TIMEOUT
+#define WIFI_SSID "SMARTLAB_2.4G"
+#define WIFI_PASSWORD "74Lynx#155BLUE=92+top"
 #define WIFI_CONNECT_TIMEOUT 10000
-#endif
+#define WIFI_RECONNECT_INTERVAL 30000
 
 /* -----------------------------------------------------------------------------
  * MQTT
  * ----------------------------------------------------------------------------- */
 
-#ifndef MQTT_BROKER
-#define MQTT_BROKER "localhost"
-#endif
-#ifndef MQTT_PORT_ESP32
+#define MQTT_BROKER "171.67.89.14"
 #define MQTT_PORT_ESP32 1883
-#endif
-#ifndef MQTT_CLIENT_ID
 #define MQTT_CLIENT_ID "nemo_display_001"
-#endif
-#ifndef MQTT_TOPIC_PREFIX
 #define MQTT_TOPIC_PREFIX "nemo/esp32"
-#endif
-#ifndef MQTT_USERNAME
 #define MQTT_USERNAME "admin"
-#endif
-#ifndef MQTT_PASSWORD
 #define MQTT_PASSWORD "admin"
-#endif
 #define MQTT_RECONNECT_INTERVAL 5000
-#endif
-#ifndef MQTT_MAX_RETRIES
 #define MQTT_MAX_RETRIES 10
-#endif
 
 /* -----------------------------------------------------------------------------
  * Tool
  * ----------------------------------------------------------------------------- */
 
-#ifndef TARGET_TOOL_ID
-#define TARGET_TOOL_ID 1
-#endif
-#ifndef TARGET_TOOL_NAME
-#define TARGET_TOOL_NAME "woollam"
-#endif
+#define TARGET_TOOL_ID 2
+#define TARGET_TOOL_NAME "Fiji 2"
 
 /* -----------------------------------------------------------------------------
  * Display
  * ----------------------------------------------------------------------------- */
 
-#ifndef DISPLAY_WIDTH
 #define DISPLAY_WIDTH 480
-#endif
-#ifndef DISPLAY_HEIGHT
 #define DISPLAY_HEIGHT 320
-#endif
-#ifndef DISPLAY_ROTATION
 #define DISPLAY_ROTATION 1
-#endif
-#ifndef DISPLAY_UPDATE_INTERVAL
 #define DISPLAY_UPDATE_INTERVAL 1000
-#endif
 
 /* -----------------------------------------------------------------------------
  * Variables for main.cpp (derived from macros above)
